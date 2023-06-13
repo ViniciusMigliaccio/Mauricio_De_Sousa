@@ -89,7 +89,7 @@ nav ul li:hover>.menu {
     background: #caad81;
     display: block;
 }
-
+/*Fiz uso do @keyframes pois o transition não estava funcionando*/
 @keyframes animacao {
     from {
         opacity: 0;
