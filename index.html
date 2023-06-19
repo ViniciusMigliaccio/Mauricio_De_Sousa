@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mauricio de Sousa | Bibliografia</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/jpg" href="img/icon-title.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script language="javascript" type="text/javascript">
+        function validar() {
+            var nome = form1.nome.value;
+            var email = form1.email.value;
+            var telefone = form1.telefone.value;
+
+            if (nome == "") {
+                alert('Por favor, preencha o campo com seu nome');
+                form1.nome.focus();
+                return false;
+            }
+            if (email == "") {
+                alert('Por favor, preencha o campo com seu E-mail');
+                form1.email.focus();
+                return false;
+            }
+            if (telefone == "") {
+                alert('Por favor, preencha o campo com seu telefone');
+                form1.telefone.focus();
+                return false;
+            }
+            if (telefone.length < 11) {
+                alert('Por favor, preencha o número de telefone com DDD');
+                form1.telefone.focus();
+                return false;
+            }
+            if (nome.length < 5) {
+                alert('Digite seu nome completo');
+                form1.nome.focus();
+                return false;
+            }
+            // Dei esse espaçamento para o alert ficar melhor esteticamente //
+            else {
+                alert('Seus dados foram registrados com sucesso!!                                           Logo entraremos em contato.')
+            }
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+    <!--Menu-->
+    <nav>
+        <div class="logo"><a href="#"><img src="img/icone.svg" width="65" height="65"></a></div>
+        <ul>
+            <li><a href="#home" class="txt-link">Home</a></li>
+            <li><a href="#historia" class="txt-link">História</a>
+                <ul class="menu">
+                    <li><a href="#decorrer" class="colun">Carreira</a>
+                        <a href="#sucesso" class="colun">Sucesso</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#obras" class="txt-link">Obras</a>
+                <ul class="menu">
+                    <li><a href="#premios" class="colun2">Prêmios</a></li>
+                </ul>
+            </li>
+            <li><a href="#galeria" class="txt-link">Galeria</a></li>
+            <li><a href="#contato" class="txt-link">Contato</a></li>
+        </ul>
+    </nav>
+    <!--Fim-->
+
+    <!--Home-->
+    <div class="home" id="home" >
+        <div class="caixa1">
+            <h3>Home</h3>
+        </div>
+        <div class="alin-home">
+            <h1>Maurício de Sousa <br>
+                História, Obras e sua galeria</h1>
+        </div>
+    </div>
+    <!--Fim do Home-->
+
+    <!--Historia-->
+    <div class="historia" id="historia">
+        <div class="caixa1">
+            <h3>História</h3>
+        </div>
+        <div class="alin-historia">
+            <img src="img/Historia-mauricio.jpg" class="img2">
+            <h5>Mauricio Araújo de Sousa nasceu em Santa Isabel (SP), em 1935, é desenhista e empresário. É conhecido
+                como o
+                criador da Turma da Mônica, além de personagens como Bidu, Horácio, Tina e Chico Bento.
+                Desde pequeno gostava de desenhar e fazia ilustrações e cartazes para rádio e jornais. Em 1954, decidiu
+                tentar a sorte em São Paulo como desenhista, mas seu primeiro emprego foi como repórter policial no
+                jornal
+                Folha da Manhã.
+                O cachorro Bidu foi o primeiro personagem publicado neste mesmo periódico, em 18 de julho de 1959. Ao
+                seu
+                lado estavam o dono, Franjinha e seu colegas Titi, Jeremias e Manezinho.
+                No entanto, a verdadeira estrela seria o menino Cebolinha, que ganharia suas próprias tiras e uma
+                revista.
+                Com ele, viriam Mônica e toda sua turma.
+            </h5>
+            <h5>
+                Maurício de Sousa nasceu em Santa Isabel, mas logo sua família havia mudado para Mogi das Cruzes.
+                Aprendeu a ler
+                com os gibis e passou grande parte da sua infância apegado aos livros.
+                Como desenhava bem, tentou trabalhar como ilustrador no jornal Folha da Manhã, mas só havia vaga para
+                ser
+                revisor. Mauricio aceitou, depois passou a ser repórter policial, e finalmente, autor de tiras.
+                Maurício de Sousa nasceu em Santa Isabel, mas logo sua família mudou para Mogi das Cruzes. Aprendeu a
+                ler
+                com os gibis e passou grande parte da sua infância apegado aos livros.
+                Como desenhava bem, tentou trabalhar como ilustrador no jornal Folha da Manhã, mas só havia vaga para
+                ser
+                revisor. Mauricio aceitou, depois passou a ser repórter policial, e finalmente, autor de tiras.
+            </h5>
+        </div>
+    </div>
+    <div class="decorrer" id="decorrer">
+        <div class="caixa1">
+            <h3>Início da carreira</h3>
+        </div>
+        <div class="alin-historia2">
+            <img src="img/historia2.jpg" class="img3">
+            <h5>Mauricio queria viver profissionalmente do desenho. Para isso, em 1955, procurou emprego de desenhista
+                em São Paulo, mas só conseguiu uma vaga de repórter policial na Folha da Manhã. Passou cinco anos
+                escrevendo
+                esse tipo de reportagem, que ilustrava com desenhos bem aceitos pelos leitores. Mauricio de Sousa
+                começou
+                a desenhar histórias em quadrinhos em 18 de julho de 1959, quando uma história do cãozinho Bidu, seu
+                primeiro personagem, foi aprovada pelo jornal. As tiras em quadrinhos com o cãozinho Bidu e seu dono,
+                Franjinha, deram origem ao Cebolinha em 1960.
+            </h5>
+            <h5>
+                Acusado de ser comunista, Mauricio foi despedido pelo chefe de redação do jornal Folha de S.Paulo,
+                retornando para Mogi das Cruzes. Nesta época, passou a apresentar um catálogo de suas tiras para
+                fornecer
+                aos jornais locais. Em 1962, foi contratado pelo jornal carioca Tribuna da Imprensa, para o qual criou o
+                personagem Piteco e sua turma. A estreia de Piteco no jornal Tribuna da Imprensa ocorreu em 25 abril
+                de
+                1962 na parte inferior da página 9.
+                Atualmente, Bidu participa tanto com Franjinha como em historinhas em que é o astro principal,
+                dialogando
+                com outros cães e até com pedras. Bidu é o símbolo da Mauricio de Sousa Produções. Na revistas
+                Lostinho-Perdidinhos nos Quadrinhos e no primeiro número da revista Saiba Mais, no entanto, é revelado
+                que a
+                primeira criação de Mauricio foi um super-herói chamado Capitão Picolé.</h5>
+        </div>
+    </div>
+    <div class="sucesso" id="sucesso">
+        <div class="caixa1">
+            <h3>Sucesso</h3>
+        </div>
+        <div class="alin-historia3">
+            <img src="img/historia3.jpg" class="img4">
+            <h5>Com o sucesso dos personagens Franjinha, Bidu, Cebolinha, o desenhista funda a "Mauricio de Sousa
+                Produções". A empresa passaria a ser responsável pela produção e distribuição dos desenhos do criador
+                para jornais de todo o Brasil.
+                Sua grande fonte de inspiração para criar os personagens vinha de sua própria família. Casado três vezes
+                e pai de nove filhos, ao menos sete personagens foram feitos à imagem de seus rebentos. Destacam-se
+                Mônica e Magali, filhas do primeiro casamento; e em 1994, Nimbus (Mauro Takeda) e Do Contra (Maurício
+                Takeda).
+                O primeiro personagem a fazer sucesso na TV foi o elefante Jotalhão, elaborado para uma marca de molhos
+                de tomate. No comercial realizado para TV, Jotalhão contracenava com a Mônica.
+                Estima-se que Maurício tenha vendido 1 bilhão de revistas da Mônica e da sua turma. Igualmente, os
+                personagens protagonizaram filmes para o cinema, televisão e possuíram um parque temático.
+            </h5>
+            <h5>
+                O primeiro personagem a fazer sucesso na TV foi o elefante Jotalhão, elaborado para uma marca de molhos
+                de tomate. No comercial realizado para TV, Jotalhão contracenava com a Mônica.
+                Estima-se que Maurício tenha vendido 1 bilhão de revistas da Mônica e da sua turma. Igualmente, os
+                personagens protagonizaram filmes para o cinema, televisão e possuíram um parque temático.
+                Atualmente, os personagens da Turma da Mônica deixaram de serem crianças e protagonizam histórias para
+                jovens. Estas revistas são feitas em estilo mangá e são um sucesso entre os jovens.
+            </h5>
+        </div>
+    </div>
+    <!--Fim da Historia-->
+
+    <!--Obras-->
+    <div class="obras" id="obras">
+        <div class="caixa1">
+            <h3>Obras</h3>
+        </div>
+        <h4 class="titulo2">Mauricio de Sousa possui diversas obras famosas, dentre elas a principais são : </h4>
+        <div class="alin-obras">
+            <div class="caixa-img1">
+                <div class="box2">
+                    <h4 class="tit3">Turma da Monica</h4>
+                    <a href="https://doceru.com/doc/18105e"><img src="img/obras-1.png" class="img-obras"></a>
+                </div>
+                <div class="box2">
+                    <h4 class="tit3">Turma da Tina</h4>
+                    <a href="https://doceru.com/doc/n0exee8"><img src="img/obras-2.png" class="img-obras"></a>
+                </div>
+                <div class="box2">
+                    <h4 class="tit3">Turma do Bidu</h4>
+                    <a
+                        href="https://indicalivros.com/livros/bidu-e-zaz-traz-colecao-historica-mauricio-mauricio-de-sousa"><img
+                            src="img/obras-3.png" class="img-obras"></a>
+                </div>
+                <div class="box2">
+                    <h4 class="tit3">Piteco - Ingá</h4>
+                    <a href="https://doceru.com/doc/s5s8vs"><img src="img/obras-4.png" class="img-obras"></a>
+                </div>
+            </div>
+            <div class="caixa-img2">
+                <div class="box2">
+                    <h4 class="tit3"> Chico Bento</h4>
+                    <a href="https://pt.scribd.com/document/381881782/004-Almanaque-Do-Chico-Bento"><img
+                            src="img/obras-5.jpg" class="img-obras"></a>
+                </div>
+                <div class="box2">
+                    <h4 class="tit3">Ronaldinho Gaúcho</h4>
+                    <a href="https://doceru.com/doc/exs88vs"><img src="img/obras-6.jpg" class="img-obras"></a>
+                </div>
+                <div class="box2">
+                    <h4 class="tit3">Monica Jovem</h4>
+                    <a href="https://archive.org/details/tmj-1o-serie-completo-manga/TMJ-01/"><img src="img/obras-7.jpg"
+                            class="img-obras"></a>
+                </div>
+                <div class="box2">
+                    <h4 class="tit3">Dinossauro Horácio</h4>
+                    <a href="https://www.researchgate.net/publication/291180697_Horacio_Odes_e_Epodos"><img
+                            src="img/obras-8.jpeg" class="img-obras"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="premios" id="premios">
+        <div class="caixa1">
+            <h3>Prêmios</h3>
+        </div>
+        <div class="alin-premios">
+            <h4 class="text-premios">
+                Mônica, em 2007, foi “Embaixadora da UNICEF”, sendo a primeira personagem a receber esse título. No
+                mesmo
+                ano, Maurício de Sousa foi homenageado como “Escritor para Crianças do UNICEF”. No ano seguinte, Mônica
+                ainda recebeu o título de “Embaixadora do Turismo Brasileiro”, pelo Ministério do Turismo.
+                Além dessas nomeações, Maurício também recebeu:</h4>
+        </div>
+        <div class="box3">
+            <ul>
+                <li class="list1">
+                    Prêmio Gran Guinigi, pela revista Mônica (Itália, 1971).
+                </li>
+                <li class="list1">
+                    Troféu Yellow Kid, o Oscar dos Quadrinhos Mundiais (Itália, 1971).
+                </li>
+                <li class="list1">
+                    Prêmio de Literatura Infantil da ABL (Brasil, 1999).
+                </li>
+                <li class="list1">
+                    Doutor Honoris Causa da Universidade La Roche (Pittsburgh, 2001).
+                </li>
+                <li class="list1">
+                    Medalha do Vaticano (Washington, DC, 2004).
+                </li>
+                <li class="list1">
+                    Homenagem da Escola de Samba Unidos do Peruche (São Paulo, 2007).
+                </li>
+                <li class="list1">
+                    Medalha de Vermeil (França, 2008).
+                </li>
+                <li class="list1">
+                    Prêmio Pulcinella, pelo conjunto da obra (Itália, 2011).
+                </li>
+            </ul>
+            <img src="img/premio-mauricio.jpg" class="img-premio">
+        </div>
+    </div>
+    <!--Fim de Obras-->
+
+    <!--Galeria-->
+    <div class="galeria" id="galeria">
+        <div class="caixa1">
+            <h3>Galeria</h3>
+        </div>
+        <h4 class="titulo4">Esta é a galeria de Mauricio de Sousa!</h4>
+        <div class="alin-galeria">
+            <div class="caixa-galeria1">
+                <img src="img/Galeria-1.jpg" class="img-galeria">
+                <img src="img/Galeria-2.jpg" class="img-galeria">
+                <img src="img/Galeria-3.jpg" class="img-galeria">
+            </div>
+            <div class="caixa-galeria2">
+                <img src="img/Galeria-4.jpg" class="img-galeria">
+                <img src="img/Galeria-5.jpg" class="img-galeria">
+                <img src="img/Galeria-6.jpg" class="img-galeria">
+
+            </div>
+        </div>
+    </div>
+    <!--Fim da galeria-->
+
+    <!--Contato-->
+    <div class="contato" id="contato">
+        <div class="caixa1">
+            <h3>Contato</h3>
+        </div>
+        <div class="caixa-4">
+            <h4 class="titulo3">Entre em contato conosco!</h4>
+        </div>
+        <div class="alin-contato">
+            <form name="form1" action="#" method="post">
+                <div class="cont">
+                    <input class="input-especial" type="text" placeholder="Nome" name="nome">
+                    <input class="input-especial" type="text" placeholder="Email" name="email">
+                    <input class="input-especial" type="text" placeholder="Telefone" name="telefone">
+                    <textarea rows="10" placeholder="Deixe um comentario..." name="comentario"></textarea>
+                    <div class="botoes">
+                        <input class="excluir" type="reset" name="limpa" value="Limpar">
+                        <input class="enviar" type="submit" onclick="return validar()" value="Enviar">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--Fim do contato-->
+
+    <!--Rodapé-->
+    <div class="box">
+        <a href="#">
+            <div class="container">
+                <img src="img/seta.png">
+            </div>
+        </a>
+    </div>
+    <div class="rodape">
+        <h5 class="rod">
+            Vinicius Santos 2023 - &copyTodos os direitos reservados
+            <br>Trabalho Acadêmico - sem fins lucrativos
+        </h5>
+    </div>
+    <!--Fim do rodapé-->
+</body>
+
+</html>
